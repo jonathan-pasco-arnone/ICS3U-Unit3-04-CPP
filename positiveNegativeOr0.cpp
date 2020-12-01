@@ -19,6 +19,7 @@ int main() {
     std::cout << "Please enter a number: ";
     std::cin >> number;
     std::cout << "" << std::endl;
+    
     if (number == 0) {
         std::cout << "The number you entered was 0" << std::endl;
     } else if (number > 0) {
